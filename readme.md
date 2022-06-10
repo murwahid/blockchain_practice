@@ -11,3 +11,6 @@ Similar to how writers are given the advice of "rewrite great literary works wor
 # SOURCES
 
 - Solidity Documentation https://docs.soliditylang.org/en/v0.8.14/solidity-by-example.html
+
+#PRACTICE-CONTRACT
+source: https://www.youtube.com/watch?v=HxlxNwgoN8w&list=PLS5SEs8ZftgVnWHv2_mkvJjn5HBOkde3g&index=2

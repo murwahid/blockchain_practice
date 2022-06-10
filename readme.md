@@ -1,6 +1,6 @@
 # PURPOSE
 
-**The purpose of the section of code is to get familiar with solidity by practicing proven contracts.**
+**The purpose of this code repo is to get familiar with solidity by practicing proven contracts.**
 
 
 # APPROACH

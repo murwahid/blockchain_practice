@@ -14,3 +14,6 @@ Similar to how writers are given the advice of "rewrite great literary works wor
 
 #PRACTICE-CONTRACT
 source: https://www.youtube.com/watch?v=HxlxNwgoN8w&list=PLS5SEs8ZftgVnWHv2_mkvJjn5HBOkde3g&index=2
+
+# ERC721-CONTRACT
+- source: https://luckytrader.com/articles/simple-erc721

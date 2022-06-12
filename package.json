@@ -1,0 +1,22 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "**The purpose of this code repo is to get familiar with solidity by practicing proven contracts.**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murwahid/blockchain_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murwahid/blockchain_practice/issues"
+  },
+  "homepage": "https://github.com/murwahid/blockchain_practice#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0"
+  }
+}

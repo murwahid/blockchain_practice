@@ -17,3 +17,9 @@ source: https://www.youtube.com/watch?v=HxlxNwgoN8w&list=PLS5SEs8ZftgVnWHv2_mkvJ
 
 # ERC721-CONTRACT
 - source: https://luckytrader.com/articles/simple-erc721
+# PRACTICE-CONTRACT
+
+source: https://www.youtube.com/watch?v=HxlxNwgoN8w&list=PLS5SEs8ZftgVnWHv2_mkvJjn5HBOkde3g&index=2
+
+#SIMPLECONTRACT 
+-source: https://cryptomarketpool.com/sample-solidity-smart-contract/

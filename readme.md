@@ -21,5 +21,15 @@ source: https://www.youtube.com/watch?v=HxlxNwgoN8w&list=PLS5SEs8ZftgVnWHv2_mkvJ
 
 source: https://www.youtube.com/watch?v=HxlxNwgoN8w&list=PLS5SEs8ZftgVnWHv2_mkvJjn5HBOkde3g&index=2
 
-#SIMPLECONTRACT 
+# SIMPLECONTRACT 
 -source: https://cryptomarketpool.com/sample-solidity-smart-contract/
+
+# AddressBook-Contract 
+Exercise: Copy code
+
+Thoughts: 
+- The nested if statements and for-looops will lead to a lot of gas consumption. 
+- The contract source could have written more efficent code. 
+
+- source: https://cryptomarketpool.com/address-book-solidity-smart-contract/
+

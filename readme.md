@@ -33,3 +33,9 @@ Thoughts:
 
 - source: https://cryptomarketpool.com/address-book-solidity-smart-contract/
 
+# Payable Test Contract 
+
+Thoughts: 
+- Excellent resource and practice contract.
+
+-source: https://www.youtube.com/watch?v=A4VMhRIWSs0&list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p&index=37

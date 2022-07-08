@@ -42,8 +42,23 @@ Thoughts:
 
 # Project: Piggy Bank 
 dc: 7/7/22
+challengeLevel: Easy
 
 Thoughts: 
 - Excellent beginners smart contract.
 
 Source: https://www.youtube.com/watch?v=Geio70-SfSE&list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p&index=52
+
+# Project: To Do List 
+dateStarted: 7/8/22
+dateCompleted:
+challengeLevel: Medium
+
+PROJECT SUMMARY: WHAT IS THIS PROJECT? 
+- A Blockchain todo list app. 
+
+FUNCTIONS: WHAT ARE THE FUNCTIONS NEEDED? 
+- CREATE A TASK
+- MARK A TASK COMPLETED (I.E. CHECKBOX)/ TOGGLE. 
+
+Source: https://www.youtube.com/watch?v=coQ5dg8wM2o

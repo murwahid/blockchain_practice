@@ -39,3 +39,11 @@ Thoughts:
 - Excellent resource and practice contract.
 
 -source: https://www.youtube.com/watch?v=A4VMhRIWSs0&list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p&index=37
+
+# Project: Piggy Bank 
+dc: 7/7/22
+
+Thoughts: 
+- Excellent beginners smart contract.
+
+Source: https://www.youtube.com/watch?v=Geio70-SfSE&list=PLO5VPQH6OWdVQwpQfw9rZ67O6Pjfo6q-p&index=52

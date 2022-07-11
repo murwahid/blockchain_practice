@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/murwahid/blockchain_practice#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.6.0"
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.7",
+    "@openzeppelin/contracts": "^4.6.0",
+    "bootstrap": "^5.2.0-beta1"
   }
 }

@@ -51,7 +51,8 @@ Source: https://www.youtube.com/watch?v=Geio70-SfSE&list=PLO5VPQH6OWdVQwpQfw9rZ6
 
 # Project: To Do List 
 dateStarted: 7/8/22
-dateCompleted:
+dateCompleted: 7/9/22
+
 challengeLevel: Medium
 
 PROJECT SUMMARY: WHAT IS THIS PROJECT? 
@@ -62,3 +63,11 @@ FUNCTIONS: WHAT ARE THE FUNCTIONS NEEDED?
 - MARK A TASK COMPLETED (I.E. CHECKBOX)/ TOGGLE. 
 
 Source: https://www.youtube.com/watch?v=coQ5dg8wM2o
+
+# Project: Build Space Twitter Clone "Wave Portal"
+dateState: 7/8/22
+dateCompleted: 
+
+challengeLevel: Hard
+
+Source: https://buildspace.so/p/build-solidity-web3-app/lessons/get-local-ethereum-network-running

@@ -66,7 +66,7 @@ Source: https://www.youtube.com/watch?v=coQ5dg8wM2o
 
 # Project: Build Space Twitter Clone "Wave Portal"
 dateState: 7/8/22
-dateCompleted: 
+dateCompleted: 7/12/22
 
 challengeLevel: Hard
 

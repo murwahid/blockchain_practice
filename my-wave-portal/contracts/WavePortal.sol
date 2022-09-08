@@ -50,8 +50,6 @@ contract WavePortal {
         //updated wavedAt 
         lastWavedAt[msg.sender] = block.timestamp;
         
-
-
         //reporting the random number
         console.log("Random # generated: %d", seed);
 
@@ -60,10 +58,11 @@ contract WavePortal {
         if(seed < 50) {
             console.log("%s won!", msg.sender);
             emit NewWave(msg.sender, block.timestamp, _message);
-            uint256 prizeAmount = 0.0001 ether;
+            uint256 prizeAmount = 0.01 ether;
+            //uint256 prizeAmount = address(this).balance;
             require(prizeAmount <= address(this).balance, "Trying to withdraw more money than contract has.");
-            (bool success,) = (msg.sender).call{value:prizeAmount}("");
-            require(success, "Failed to withdraw money from contract");
+            payable(msg.sender).transfer(prizeAmount);
+            //require(success, "Failed to withdraw money from contract");
         }
 
         emit NewWave(msg.sender, block.timestamp, _message);

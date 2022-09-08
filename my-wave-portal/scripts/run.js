@@ -1,4 +1,5 @@
 const main = async () => {
+    const weth = 1000000000000000000;
     const waveContractFactory = await hre.ethers.getContractFactory("WavePortal");
     const waveContract = await waveContractFactory.deploy(
         {
@@ -20,7 +21,8 @@ const main = async () => {
     );
     console.log(
         "Contract balance:", 
-        hre.ethers.utils.formatEther(contractBalance)
+        contractBalance/weth
+        //hre.ethers.utils.formatEther(contractBalance)
     );
 
     /**
@@ -33,10 +35,16 @@ const main = async () => {
     waveTxn2 = await waveContract.connect(randomPerson).wave("Another message!");
     await waveTxn2.wait(); // Wait for the transaction to be mined
 
+
+    contractBalance = await hre.ethers.provider.getBalance(
+        waveContract.address
+    );
+    
     //new contract balance 
     console.log(
         "Contract balance:", 
-        hre.ethers.utils.formatEther(contractBalance)
+        //hre.ethers.utils.formatEther(contractBalance)
+        contractBalance/weth
     );
 
 

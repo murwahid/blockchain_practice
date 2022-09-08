@@ -68,25 +68,25 @@ contract MyEpicNFT is ERC721URIStorage {
         public
         view
         returns (string memory)
-    {
-        uint256 rand = random(
+        {
+            uint256 rand = random(
             string(abi.encodePacked("SECOND_WORD", Strings.toString(tokenId)))
-        );
-        rand = rand % secondWords.length;
-        return secondWords[rand];
-    }
+            );
+            rand = rand % secondWords.length;
+            return secondWords[rand];
+        }
 
     function pickRandomThirdWord(uint256 tokenId)
         public
         view
         returns (string memory)
-    {
-        uint256 rand = random(
+        {
+            uint256 rand = random(
             string(abi.encodePacked("THIRD_WORD", Strings.toString(tokenId)))
-        );
-        rand = rand % thirdWords.length;
-        return thirdWords[rand];
-    }
+            );
+            rand = rand % thirdWords.length;
+            return thirdWords[rand];
+        }
 
     function random(string memory input) internal pure returns (uint256) {
         return uint256(keccak256(abi.encodePacked(input)));

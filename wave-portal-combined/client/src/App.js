@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import './App.css';
 import abi from "./utils/WavePortal.json";
-import {useForm} from "react-hook-form";
+import { useForm } from "react-hook-form";
+import AlertModal from "./components/AlertModal";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   //state:message 
   const [waveMsg, setWaveMsg] = useState("");
 
-  const {reset} = useForm();
+  const { reset } = useForm();
 
 
   //contract address 
@@ -134,13 +135,16 @@ function App() {
         console.log("The Wave Msg Is:", waveMsg);
 
         const waveTxn = await wavePortalContract.wave(waveMsg);
+
         console.log("Mining...", waveTxn.hash);
 
         await waveTxn.wait();
         console.log("Mined -- ", waveTxn.hash);
 
         count = await wavePortalContract.getTotalWaves();
+        alert("Your Transaction is complete. Click on Get All Waves.")
         console.log("Retrieved total wave count...", count.toNumber());
+        window.location.reload(false);
       } else {
         console.log("Ethereum object doesn't exist!");
       }
@@ -174,16 +178,15 @@ function App() {
           <h3>Share A Funny Thought or Gif</h3>
           <div class="form-floating mx-1">
             <div class="content-block">
-            <textarea
-              class="form-control mb-3"
-              placeholder="Leave a wave here"
-              id="floatingTextarea"
-              onChange={e => setWaveMsg(e.target.value)}
-              style={{height: "100px"}}
-            >
-            </textarea>
+              <textarea
+                class="form-control mb-3"
+                placeholder="Leave a wave here"
+                id="floatingTextarea"
+                onChange={e => setWaveMsg(e.target.value)}
+                style={{ height: "100px" }}
+              >
+              </textarea>
             </div>
-           
           </div>
           <div class="content-block">
             <button type="button" class="btn btn-primary btn-lg btn-block" onClick={wave}>👋 Wave At Me</button>
@@ -197,7 +200,6 @@ function App() {
             <button class="btn btn-dark btn-lg btn-block" onClick={getAllWaves}> ⭐	Get all Waves</button>
           </div>
         </div>
-
       </div>
 
 
@@ -205,7 +207,7 @@ function App() {
       {
         allWaves.map((wave, index) => {
           return (
-            <div key={index} style={{ backgroundColor: "#fbc664", margin: "16px", padding: "8px", class: "shadow-lg" }}>
+            <div key={index} style={{ backgroundColor: "white", margin: "16px", padding: "8px", class: "shadow-lg" }}>
               <h2>Message: {wave.message}</h2>
               <hr></hr>
               <div><strong>Address:</strong> {wave.address}</div>
